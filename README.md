@@ -3,23 +3,30 @@ You are given an array of size N  in which the value of the elements are either 
 0 index : In this type of query you have to find the nearest left and nearest right element from position  in the array whose value is .
 1 index : In this type of query you need to change the value at positon  to  if its previous value is 0 or else leave it unchanged.
 
-#Important Note :
+# Important Note :
 If there is no position with value 1 on the left side of any index in query then print -1 instead of left index and similarly if there is no value 1 in right side of the value index in that query then print -1 in place of the answer for right element.
 
-#Sample Input
+# Sample Input
 7 4
+
 1 0 0 0 1 0 1
+
 0 1
+
 0 5
+
 1 2
+
 0 2
 
-#Sample Output
-0 4
-4 6
+# Sample Output
 0 4
 
-#Explanation
+4 6
+
+0 4
+
+# Explanation
 
 The First query is 0 1. So the nearest 1 in left side from index 1 is element at index 0 and in right side the element is at index 4.
 
